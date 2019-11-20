@@ -1,0 +1,130 @@
+body {
+    /* background: #979292; */
+    padding: 200px;
+    background-image: url(images/1.png)
+}
+
+
+
+/* modification menu*/
+.round-menu {
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    background: #666;
+    border: 1px solid #111;
+    position: relative;
+    border-radius: 100%;
+    top: 30%;
+    left: 30%;
+    box-shadow: inset 3px 3px 50px blaCK;
+}
+
+.round-menu a {
+    width: inherit;
+    height: inherit;
+    color: white;
+    transform: skew(-45deg);
+    display: block;
+    /* background: black;   */
+}
+
+.round-menu li {
+    /* opacity: 0.5; */
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: skew(45deg); */
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgba(153, 153, 153, 0.5);
+    transform-origin: 0 0;
+    background: rgb(13, 14, 13, 0.5);
+    transition: 1s;
+}
+
+.round-menu li:hover {
+    transition: 1s;
+    background: rgba(250, 126, 25, 0.945)
+}
+
+.round-menu li i {
+    text-shadow: 2px 2px 2px black;
+    transform: translateX(-65px) translateY(40px) rotate(190deg);
+    font-size: 30px;
+   
+}
+
+.round-menu li:hover i {
+    color: black;
+
+}
+
+/* ul{
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
+
+.round-menu li:nth-child(1) {
+    /* background:rgb(102, 102, 102); */
+    transform: rotate(157deg) skew(45deg)
+}
+
+.round-menu li:nth-child(2) {
+    /* background: rgb(102, 102, 102); */
+    transform: rotate(202deg) skew(45deg)
+}
+
+.round-menu li:nth-child(3) {
+    /* background: rgb(102, 102, 102); */
+    transform: rotate(247deg) skew(45deg)
+}
+
+.round-menu li:nth-child(4) {
+    /* background: rgb(102, 102, 102); */
+    transform: rotate(292deg) skew(45deg)
+}
+
+.round-menu li:nth-child(5) {
+    /* background: rgb(102, 102, 102); */
+    transform: rotate(337deg) skew(45deg)
+}
+
+.round-menu li:nth-child(6) {
+    /* background: rgb(102, 102, 102); */
+    transform: rotate(382deg) skew(45deg)
+}
+
+.round-menu li:nth-child(7) {
+    /* background: rgb(102, 102, 102); */
+    transform: rotate(427deg) skew(45deg)
+}
+
+.round-menu li:nth-child(8) {
+    /* background: rgb(102, 102, 102); */
+    transform: rotate(472deg) skew(45deg)
+}
+
+.round-menu i:nth-child(3) {
+    transform:  rotateX(90deg);
+}
+.round-menu i:nth-child(2) {
+    transform: rotate(20deg) 
+}
+
+
+
+
+.round-menu li:nth-child(9) {
+    /* background-image: linear-gradient(black,transparent 50%); */
+    box-shadow: 3px 3px 10px BLACK;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    top: 75px;
+    left: 75px;
+}
