@@ -1,0 +1,102 @@
+
+  
+body{
+    --bg-darker: #090d10;
+    --bg-dark: #2C3E50;
+    --bg-light-dark: #34495E;
+    --bg-light: #BDC3C7;
+    --fg-dark: #2980B9;
+    --fg-light: #3498DB;
+
+
+    --size: 200px;
+    --size-1: 50px;
+    /* bg image variables */
+    --bg-image: bg-color.png;
+}
+/* ######################################################################################################################################################### */
+body{
+    background-image: url(bg-color.png)
+}
+#preloader{
+    width: var(--size);
+    height: var(--size);
+    /* background-color: var(--bg-light-dark); */
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: var(--size);
+    box-shadow: inset 0 0 3px 2px var(--bg-darker);
+    padding: 20px;
+
+    
+}
+#preloader .big{
+    width: calc(0.9 * var(--size));
+    height: calc(0.9 * var(--size));
+    /* background: white; */
+    border-radius:  var(--size);
+    border: calc(0.05*var(--size-1)) solid var(--fg-light);
+    border-top-color: transparent;
+    transform: rotate(45deg);
+    animation: move 3s infinite;
+    padding: 20px;
+
+    
+}
+#preloader .medium{
+    width: calc(0.8 * var(--size));
+    height: calc(0.8 * var(--size));
+    /* background-image: url(bg-color.png); */
+    border-radius: 100%;
+    box-shadow: 0 0 3px 2px var(--bg-darker);
+    transform: rotate(-45deg);
+    animation: move_direction 10s infinite;
+    border: calc(0.01*var(--size)) solid var(--fg-light);
+    border-left-color: transparent;
+    padding: 10px;
+
+   
+
+   
+
+}
+#preloader .small{
+    background-color: var(--bg-darker);
+    color: var(--fg-light);
+    font-size: calc(1/8*var(--size));
+    text-align: center;
+    width: calc(0.7 * var(--size));
+    height: calc(0.7 * var(--size));
+    line-height: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    animation: move_3 3s infinite;
+    
+
+    
+}
+.center{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+@keyframes move{
+    from{transform: rotate(45deg)} 
+    to{transform: rotate(410deg)}
+}
+@keyframes move_direction{
+    from{transform: rotate(90deg)} 
+    to{transform: rotate(810deg)}
+}
+@keyframes move_3{
+    from{transform: rotate(-180deg)} 
+    to{transform: rotate(-1620deg)}
+}
