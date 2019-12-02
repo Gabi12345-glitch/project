@@ -1,0 +1,65 @@
+/* http://appco.themetags.com/index.html */
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+#header-main{
+    background-color: #999;
+}
+
+
+
+
+// section
+.section{
+    height: 100vh;
+    h1{
+        text-align: center;
+        font-weight: 900;
+        font-size: 3em;
+        padding-top: 1em;
+        margin-bottom: 0.5em;
+    }
+    h2{
+        text-align: center;
+        font-weight: 100;
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    p.important{
+        font-size: 1.2em;
+        font-weight: 200;
+        text-align: center;
+        line-height: 1.7em;
+    }
+    
+}
+
+.row{
+    &.row--ib{
+        // background-color: red;
+        margin-top: 3em;
+        div{
+            background-color: #fff;
+            display: inline-block;
+            width: 32%;
+            margin-right: 2%;
+            border: 2px solid #111;
+            
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    
+}
+
+#section-advantages{
+    text-align: center;
+}
+// section manage
