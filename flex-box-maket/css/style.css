@@ -189,7 +189,9 @@ form{
 /* section-2 */
 .main-title{
     text-align: center;
-    margin-top: 50px;
+}
+.wrapper-block-business{
+    margin-top: 100px;
 }
 .main-title>h1{
     font-size: 30px;
@@ -257,12 +259,13 @@ form{
    background-repeat: no-repeat;
 }
 .block-wrapper-device{
-    width: 1000px;
+    /* width: 1000px; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .column-left-device{
-    margin-top: 50px;
+    margin-top: 150px;
+    width: 650px;
     
 }
 .column-left-device h2{
@@ -273,25 +276,121 @@ form{
     font-weight: 400;
 }
 .column-right-device{
-    margin-top: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
 }
 .content-icon-device{
-    margin-top: 40px;
-    background-color: red;
-    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    /* margin-left: 10px; */
+    
+    width: 600px;
+}
+.block-icon-device{
+    margin-top: 70px;
+}
+.content-icon-device i{
+    color: white;
+}
+.content-icon-device p{
+    margin-left: 15px;
+    line-height: 1.6;
+    font-size: 13px;
+
+    color: #707070;
+    
 }
 
 
 .wrapper-device-icon{
-    background-color: blue;
-    display: inline-block;
+    width: 45px;
+    height: 25px;
+    border-radius: 7px;
+    background-color: #9629e6;
+    box-shadow: 0px 1px 7px 0px rgb(230, 208, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  15px;
+}
+/* section-3 */
+
+
+
+
+/* section-4 */
+.wrapper-block-colaborate{
+    display: flex;
+    
+    
+}
+.column-right-colaborate{
+    margin-top: 150px;
+    margin-left: 150px;
+    
+}
+.column-right-colaborate h2{
+    line-height: 1.4;
+    font-size: 30px;
+}
+.column-right-colaborate h2>span{
+    font-weight: 300;
+}
+.column-right-colaborate p{
+    margin-top: 30px;
+    font-size: 14px;
+
+    line-height: 1.7;
+    color: #707070;
+
+}
+.block-wrapper-colaborate_for_icon{
+    margin-top: 30px;
+    display: flex;
+}
+.block-icon-colaborate{
+    background-color: #9729e6ad;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
     padding: 20px;
+    border: 1px solid rgb(180, 170, 170);
+}
+.block-icon-colaborate i{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+
+    font-size: 20px;
+}
+.block-icon-colaborate:nth-child(2){
+    margin-left: 30px;
+}
+.block-icon-colaborate:nth-child(3){
+    margin-left: 30px;
+}
+.block-icon-colaborate:nth-child(4){
+    margin-left: 30px;
 }
 
 
 
+/* section-5 */
+#section-managing{
+    background-image: url(../images/app-hero-bg.jpg);
+    block-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper-managing{
+    display: flex;
+}
 
-
-.column-right-device{
-    
+.column-left-managing{
+    margin-top: 40px;
+}
+.column-left-managing h2{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
 }
