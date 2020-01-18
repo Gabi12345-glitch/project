@@ -1,0 +1,191 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    cursor: all-scroll;
+
+}
+.container{
+    max-width: 1200px;
+    margin:  auto;
+}
+/* ******************HEADER****************** */
+header{
+    
+    border-bottom: 1px solid #DADADA;
+}
+header .main-nav{
+    display: flex;
+    padding-top: 38px;
+    padding-bottom: 35px;
+
+}
+header .main-nav .ul-logo .logo-name{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3F3D56;
+    letter-spacing: 6px;
+
+}
+header .main-nav .ul-logo .logo-name span{
+    color: #FF6584;
+    text-transform: uppercase;
+}
+
+
+header .main-nav .ul-services{
+    display: flex;
+    margin-left: 250px;
+}
+header .main-nav .ul-services li{
+   margin-left: 20px;
+   font-weight: bold;
+   color: #3F3D56;
+    cursor: pointer;
+   transition: .3s all;
+}
+header .main-nav .ul-services li:hover{
+    color: #FF6584;
+    transition: .3s ;
+}
+header .main-nav li{
+    list-style-type: none;
+}
+/* ******************HEADER****************** */
+
+
+/* ******************SECTION-DESIGN****************** */
+.section-design{
+    padding-top: 96px;
+    padding-bottom: 113px;
+    border-radius: 0px 0px 349px 0px;
+    height: 100%;
+    
+}
+.section-design .block-wrapper-design{
+    display: flex;
+}
+.section-design .block-design-content{
+    padding-top: 75px;
+}
+.section-design .block-design-content h1{
+    font-weight: bold;
+    font-size: 40px;
+    max-width: 513px;
+
+    line-height: 50px;
+
+    margin-bottom: 20px;
+}
+.section-design .block-design-content h1 span{
+    color: #FF6584;
+
+}
+.section-design .block-design-content p{
+    margin-bottom: 54px;
+    line-height: 24px;
+    color: #888888;
+}
+.section-design .block-design-content .btn-get-started{
+    background: #FF6584;
+    display: inline;
+    padding: 14px 50px;
+    border-radius: 5px;
+}
+.section-design .block-design-content .btn-get-started a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 4px;
+}
+
+/* ******************SECTION-DESIGN****************** */
+
+
+/* ******************SECTION-BRANDS****************** */
+.section-brands{
+    padding-top: 134px;
+    padding-bottom: 180px;
+    
+}
+.section-bg{
+    background-color: rgba(169, 164, 164, 0.17);
+}
+.section-brands .block-wrapper-brands{
+    display: flex;
+    justify-content: space-between;
+
+}
+.section-brands .block-wrapper-brands .block-content-brands h2{
+    font-weight: bold;
+    color: #3F3D56;
+    font-size: 40px;
+    width: 445px;
+
+    line-height: 52px;
+}
+.section-brands .block-wrapper-brands .block-content-brands h2 span{
+    color: #FF6584;
+}
+.section-brands .block-wrapper-brands p{
+    width: 437px;
+    line-height: 24px;
+    color: #888888;
+    
+}
+.section-brands .block-wrapper-brands p:nth-child(2){
+    margin-top: 20px;
+}
+
+
+/* ******************SECTION-BRANDS****************** */
+
+/* ******************SECTION-SERVICE****************** */
+.section-service {
+    padding-bottom: 110px;
+}
+.section-service h2{
+    font-weight: bold;
+    color: #3F3D56;
+    font-size: 40px;
+    text-align: center;
+
+    padding-bottom: 72px;
+}
+.section-service h2 span{
+    color: #FF6584;
+}
+.section-service .block-card-service{
+    display: flex;
+
+}
+.section-service .block-card-service .block-content-service{
+    width: 160px;
+    height: 135px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.section-service .block-card-service .block-content-service:hover{
+    background: #FF6584;
+}
+.section-service .block-card-service .block-content-service .block-inner-service{
+    text-align: center;
+    margin-top: 38px;
+}
+.section-service .block-card-service .block-content-service .block-inner-service .block-a-service{
+    margin-top: 14px;
+
+    
+}
+.section-service .block-card-service .block-content-service .block-inner-service .block-a-service a{
+    text-decoration: none;
+    color: #3F3D56;
+
+    font-weight: 600;
+    font-size: 12px;
+}
+.section-service .block-card-service .block-content-service a:hover{
+    color: white;
+}
+/* ******************SECTION-SERVICE****************** */
+
+
+
